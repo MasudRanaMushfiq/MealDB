@@ -25,6 +25,15 @@ npm install
 ```bash
 npm run dev
 ```
+- But some time for the wrong path it may show
+```bash
+npm error Missing script: "dev"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\Lenovo\AppData\Local\npm-cache\_logs\2025-01-28T17_24_15_797Z-debug-0.log
+```
+- To overcome this go to your project command `cd app-name`. 
 
 This command starts the Vite development server. You can now open your browser and visit `http://localhost:5173` to view your Vite React app running.
 
